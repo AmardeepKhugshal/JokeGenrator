@@ -19,3 +19,31 @@ async function genrateJoke (){
         console.log(error)
     }
 }
+
+let redBtn = document.querySelector('#red');
+let blueBtn = document.querySelector('#blue');
+let greyBtn = document.querySelector('#grey');
+let seaGreenBtn = document.querySelector('#seaGreen');
+let yellowBtn = document.querySelector('#yellow');
+let orangeBtn = document.querySelector('#orange')
+
+
+
+redBtn.addEventListener('click',()=>{
+    document.body.style.backgroundColor = 'red';
+})
+blueBtn.addEventListener('click',()=>{
+    document.body.style.backgroundColor = 'blue';
+})
+greyBtn.addEventListener('click',()=>{
+    document.body.style.backgroundColor = 'grey';
+})
+seaGreenBtn.addEventListener('click',()=>{
+    document.body.style.backgroundColor = 'seagreen';
+})
+yellowBtn.addEventListener('click',()=>{
+    document.body.style.backgroundColor = 'yellow';
+})
+orangeBtn.addEventListener('click',()=>{
+    document.body.style.backgroundColor = 'orange';
+})
